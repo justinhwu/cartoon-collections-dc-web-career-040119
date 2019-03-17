@@ -31,8 +31,5 @@ end
 def find_the_cheese(list)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if list.include?(cheese_types) == true
-    return list == cheese_types
-  else
-    return nil
+  list.find
 end
